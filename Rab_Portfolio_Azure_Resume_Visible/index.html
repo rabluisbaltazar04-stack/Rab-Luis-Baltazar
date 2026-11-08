@@ -1,0 +1,926 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091321">
+  <meta name="description" content="Portfolio of Rab Luis Baltazar, an IT student building a career in cloud engineering.">
+
+  <title>Rab Luis Baltazar | Cloud Engineering Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- NAVIGATION -->
+<header class="nav">
+  <div class="container nav-content">
+
+    <a class="logo" href="#home">
+      <span class="logo-mark">RB</span>
+      <span>Rab Baltazar<span style="color:var(--accent)">.</span></span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#azure-labs">Azure Projects</a>
+      <a href="#qa">QA Project</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" type="button"
+        aria-label="Switch theme" title="Toggle dark / light theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2m0 16v2M4.9 4.9l1.5 1.5m11.2 11.2 1.5 1.5M2 12h2m16 0h2M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5"/>
+        </svg>
+      </button>
+
+      <button class="icon-btn menu-btn" id="menu-toggle"
+        type="button" aria-label="Open navigation"
+        aria-controls="nav-links" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HOME -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+
+      <div>
+        <span class="eyebrow">Information Technology Student</span>
+
+        <h1>
+          <span class="name">Hi, I'm Rab Luis Baltazar.</span>
+          Building my path in
+          <span class="blue">cloud engineering.</span>
+        </h1>
+
+        <p class="hero-lead">
+          I'm an IT student at
+          <strong>Universidad de Manila</strong>,
+          building practical skills in Microsoft Azure,
+          cloud infrastructure, and networking through
+          academic labs and independent study.
+
+          I also bring experience in
+          <strong>manual software testing</strong>
+          from an academic capstone project.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="#azure-labs">
+            View my work
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14m-6-6 6 6-6 6"/>
+            </svg>
+          </a>
+
+          <a class="btn btn-outline"
+            href="assets/resume.pdf"
+            target="_blank" rel="noopener noreferrer">
+            View resume (PDF)
+          </a>
+        </div>
+
+        <div class="hero-facts">
+          <span>Cloud Engineering · Long-term goal</span>
+          <span>Microsoft Azure · Learning focus</span>
+          <span>Open to OJT opportunities</span>
+        </div>
+      </div>
+
+      <!-- PROFILE PICTURE -->
+      <div class="portrait-block">
+
+        <div class="portrait-shell">
+          <div class="portrait-inner" id="portrait-frame">
+
+            <img id="portrait-photo"
+              src="assets/Profile Picture.jpg"
+              alt="Portrait of Rab Luis Baltazar">
+
+            <div class="photo-place" aria-hidden="true">
+              <svg viewBox="0 0 120 120" fill="none"
+                stroke="currentColor" stroke-width="2.7">
+                <circle cx="60" cy="40" r="22"/>
+                <path d="M20 112c2-25 17-39 40-39s38 14 40 39"/>
+              </svg>
+
+              <strong>Your photo goes here</strong>
+              <small>assets/profile.jpg</small>
+            </div>
+
+          </div>
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INFORMATION STRIP -->
+  <div class="info-strip">
+    <div class="container info-grid">
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8">
+          <path d="M4 10h16v10H4zM2 10 12 4l10 6M8 20v-6h8v6"/>
+        </svg>
+        <div>
+          <strong>Universidad de Manila</strong>
+          <span>Bachelor of Science in Information Technology</span>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>
+        </svg>
+        <div>
+          <strong>Metro Manila, Philippines</strong>
+          <span>Location</span>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8">
+          <rect x="3" y="5" width="18" height="15" rx="2"/>
+          <path d="M7 3v4m10-4v4M3 10h18"/>
+        </svg>
+        <div>
+          <strong>Open to internships</strong>
+          <span>Cloud, IT operations, infrastructure and related roles</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+
+      <div class="section-title">
+        <span class="section-label">01 / About me</span>
+        <h2>Learning with a clear direction.</h2>
+        <p>
+          My goal is to grow into a cloud engineering role
+          by building technical fundamentals and applying
+          them through practical projects.
+        </p>
+      </div>
+
+      <div class="about-layout">
+
+        <div class="about-copy">
+          <p>
+            I'm currently studying
+            <strong>Information Technology at Universidad de Manila</strong>.
+            My main interest is cloud engineering, particularly
+            how cloud environments are configured, secured,
+            monitored, and maintained.
+          </p>
+
+          <p>
+            In cloud computing coursework, I deployed a Windows
+            virtual machine, configured IIS web hosting, and
+            built an Azure Automation workflow for VM shutdown.
+            I am seeking opportunities to deepen my infrastructure
+            and IT operations experience.
+          </p>
+
+          <p>
+            Through our BRGY-AI capstone, I also contributed to
+            <strong>manual application testing</strong> and test
+            case documentation. That experience helped me
+            appreciate the importance of structured testing
+            and reliable systems.
+          </p>
+        </div>
+
+        <div class="principles">
+          <div class="principle">
+            <span class="number">01</span>
+            <div>
+              <strong>Cloud-first career goal</strong>
+              <p>Azure services, infrastructure and operations.</p>
+            </div>
+          </div>
+
+          <div class="principle">
+            <span class="number">02</span>
+            <div>
+              <strong>Networking foundation</strong>
+              <p>Connectivity, addressing, security and troubleshooting.</p>
+            </div>
+          </div>
+
+          <div class="principle">
+            <span class="number">03</span>
+            <div>
+              <strong>Evidence-based work</strong>
+              <p>Documentation and actual academic project testing.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOUD ENGINEERING -->
+  <section id="cloud" class="section section-muted">
+    <div class="container">
+
+      <div class="section-title">
+        <span class="section-label">02 / Cloud engineering</span>
+
+        <h2>Learning through hands-on Azure labs.</h2>
+
+        <p>
+          Alongside studying cloud concepts and networking,
+          I completed two Microsoft Azure labs as part of my
+          coursework. Both were created using a free trial;
+          the cloud resources were deleted after the activities.
+        </p>
+      </div>
+
+      <div class="cloud-grid">
+
+        <article class="panel focus-card">
+          <div class="focus-ico">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <path d="M5 17h14a4 4 0 0 0-.8-7.9A7 7 0 0 0 4 11a3.5 3.5 0 0 0 1 6Z"/>
+            </svg>
+          </div>
+          <h3>Microsoft Azure</h3>
+          <p>
+            Compute, storage, identity, governance,
+            monitoring, and core cloud services.
+          </p>
+        </article>
+
+        <article class="panel focus-card">
+          <div class="focus-ico">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <circle cx="6" cy="6" r="2.5"/>
+              <circle cx="18" cy="6" r="2.5"/>
+              <circle cx="12" cy="18" r="2.5"/>
+              <path d="M8 7l3 8m5-8-3 8M9 6h6"/>
+            </svg>
+          </div>
+          <h3>Cloud Networking</h3>
+          <p>
+            Virtual networks, subnets, NSGs,
+            private access, and connectivity fundamentals.
+          </p>
+        </article>
+
+        <article class="panel focus-card">
+          <div class="focus-ico">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2 4 5v6c0 5 3 8 8 11 5-3 8-6 8-11V5z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Security & Operations</h3>
+          <p>
+            Access control, resource organization,
+            cloud monitoring, and cost awareness.
+          </p>
+        </article>
+
+      </div>
+
+      <!-- AZURE PROJECTS -->
+      <div class="lab-heading" id="azure-labs">
+        <div>
+          <span class="lab-eyebrow">Completed academic labs · 2026</span>
+          <h3>Azure projects</h3>
+          <p>
+            These are hands-on coursework activities I completed,
+            not live production systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="lab-grid">
+
+        <!-- AZURE VM AND IIS -->
+        <article class="panel lab-card">
+
+          <div class="lab-card-top">
+            <span class="chip blue">Microsoft Azure</span>
+            <span class="chip">Academic lab</span>
+          </div>
+
+          <h4>Virtual Machine & IIS Web Hosting</h4>
+
+          <p>
+            Deployed a Windows virtual machine in Microsoft Azure,
+            connected using Remote Desktop, installed the IIS
+            Web Server role, and hosted a static HTML/CSS website
+            accessible through the VM's public IP address.
+          </p>
+
+          <div class="lab-tags">
+            <span>Azure VM</span>
+            <span>Windows Server</span>
+            <span>RDP</span>
+            <span>IIS</span>
+          </div>
+
+          <p class="lab-evidence">
+            Completed in 2026 · Academic lab with an output
+            screenshot documented on GitHub.
+          </p>
+
+          <div class="project-actions">
+            <a class="btn btn-outline"
+              href="https://github.com/rabluisbaltazar04-stack/Azure-VM-IIS-Web-Hosting"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              View documentation on GitHub
+
+              <svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M7 17 17 7M9 7h8v8"/>
+              </svg>
+            </a>
+          </div>
+
+        </article>
+
+        <!-- AZURE AUTOMATION -->
+        <article class="panel lab-card">
+
+          <div class="lab-card-top">
+            <span class="chip blue">Microsoft Azure</span>
+            <span class="chip">Academic lab</span>
+          </div>
+
+          <h4>Automation: Scheduled VM Shutdown</h4>
+
+          <p>
+            Created an Azure Automation Account and imported
+            a graphical runbook. Configured a one-time shutdown
+            schedule and successfully tested the runbook,
+            which stopped and deallocated the virtual machine.
+          </p>
+
+          <div class="lab-tags">
+            <span>Automation Account</span>
+            <span>Graphical Runbook</span>
+            <span>Schedules</span>
+            <span>VM Deallocation</span>
+          </div>
+
+          <p class="lab-evidence">
+            Completed in 2026 · Runbook test and VM status
+            screenshots documented on GitHub.
+          </p>
+
+          <div class="project-actions">
+            <a class="btn btn-outline"
+              href="https://github.com/rabluisbaltazar04-stack/Azure-Automation-VM-Shutdown"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              View documentation on GitHub
+
+              <svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M7 17 17 7M9 7h8v8"/>
+              </svg>
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="note">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 11v5m0-8h.01"/>
+        </svg>
+
+        <p>
+          <strong>Deployment status:</strong>
+          Both labs were completed using an Azure free trial.
+          The virtual machines and other trial resources are
+          no longer running. The activities are documented
+          on GitHub with screenshots of their results.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BRGY-AI QA PROJECT -->
+  <section id="qa" class="section">
+    <div class="container">
+
+      <div class="section-title">
+        <span class="section-label">
+          03 / Quality assurance · Featured project
+        </span>
+
+        <h2>Quality Assurance Project.</h2>
+
+        <p>
+          My academic QA contribution is a practical example
+          of how I approach testing and documentation.
+        </p>
+      </div>
+
+      <article class="panel project">
+
+        <div class="project-art" id="project-art">
+
+          <img
+            id="project-photo"
+            class="app-screenshot"
+            src="assets/brgy-ai-phone-mockup.png"
+            alt="BRGY-AI mobile app login screen phone mockup">
+
+          <div class="app-screen" aria-hidden="true">
+            <div class="mock-mark">
+              <svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8">
+                <path d="M4 9 12 4l8 5v11H4zM9 20v-7h6v7"/>
+              </svg>
+            </div>
+
+            <strong>BRGY-AI</strong>
+            <small>Legal information & document assistance</small>
+
+            <div class="app-line wide"></div>
+            <div class="app-line short"></div>
+            <div class="app-button"></div>
+          </div>
+
+          <span class="visual-caption">
+            BRGY-AI login screen
+          </span>
+          
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-kicker">
+            <span class="chip blue">Academic Capstone</span>
+            <span class="chip">Manual QA Contributor</span>
+          </div>
+
+          <h3>BRGY-AI</h3>
+
+          <p class="project-intro">
+            A retrieval-augmented generation (RAG) legal
+            information and document assistance application
+            designed for Barangay 134. It aims to help
+            residents navigate basic legal information
+            and document-related processes.
+          </p>
+
+          <p class="role">My contribution</p>
+
+          <div class="evidence">
+            <h4>Manual testing & test case documentation</h4>
+
+            <ul>
+              <li>
+                Documented <strong>37 test cases</strong>
+                under my name in the team's testing spreadsheet.
+              </li>
+              <li>
+                Covered registration, login, home screen,
+                announcements, and complaint features.
+              </li>
+              <li>
+                Recorded test steps and expected outcomes
+                using Google Sheets.
+              </li>
+              <li>
+                Included functional, negative, and navigation
+                test scenarios.
+              </li>
+            </ul>
+          </div>
+
+          <div class="case-stat">
+            <strong>37</strong>
+            <span>
+              documented test cases attributed to me
+              in the team workbook
+            </span>
+          </div>
+
+          <div class="project-actions">
+
+            <a class="btn btn-primary"
+              id="qa-doc-link"
+              href="https://github.com/rabluisbaltazar04-stack/BRGY-AI-QA-Documentation"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              View QA Documentation
+
+              <svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M7 17 17 7M9 7h8v8"/>
+              </svg>
+            </a>
+
+            <a class="btn btn-outline"
+              id="test-case-link"
+              href="#qa"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden>
+              View test cases
+            </a>
+
+            <a class="btn btn-outline"
+              id="project-demo-link"
+              href="#qa"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden>
+              Watch demo
+            </a>
+
+            <span class="chip" id="evidence-placeholder" hidden>
+              Documentation
+            </span>
+
+          </div>
+        </div>
+
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-muted">
+    <div class="container">
+
+      <div class="section-title">
+        <span class="section-label">04 / Skills & tools</span>
+        <h2>What I'm building and using.</h2>
+
+        <p>
+          Cloud and networking are my learning priorities.
+          My QA experience comes from academic project work.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+
+        <div class="panel skill-card">
+          <h3>Cloud & Networking</h3>
+          <p class="skill-note">
+            Foundational knowledge and continuing study
+          </p>
+
+          <div class="tags">
+            <span class="tag">Microsoft Azure</span>
+            <span class="tag">Azure Virtual Machines</span>
+            <span class="tag">Azure Automation</span>
+            <span class="tag">Cloud Concepts</span>
+            <span class="tag">Virtual Networks</span>
+            <span class="tag">Subnets & NSGs</span>
+            <span class="tag">Azure Storage</span>
+            <span class="tag">Identity & RBAC</span>
+          </div>
+        </div>
+
+        <div class="panel skill-card">
+          <h3>Software Quality Assurance</h3>
+
+          <p class="skill-note">
+            Applied in BRGY-AI academic testing
+          </p>
+
+          <div class="tags">
+            <span class="tag">Manual Testing</span>
+            <span class="tag">Test Case Documentation</span>
+            <span class="tag">Functional Testing</span>
+            <span class="tag">Negative Scenarios</span>
+            <span class="tag">Expected Results</span>
+            <span class="tag">Google Sheets</span>
+          </div>
+        </div>
+
+        <div class="panel skill-card">
+          <h3>Other Technical Skills</h3>
+
+          <p class="skill-note">
+            Academic and portfolio development
+          </p>
+
+          <div class="tags">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">IIS Web Hosting</span>
+            <span class="tag">RDP</span>
+            <span class="tag">Cisco Packet Tracer</span>
+            <span class="tag">Technical Documentation</span>
+            <span class="tag">Technical Research</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Team Collaboration</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+
+      <div class="section-title">
+        <span class="section-label">05 / Certifications</span>
+        <h2>Certifications & training.</h2>
+
+        <p>
+          Completed training and certification progress
+          supporting my journey toward cloud engineering.
+        </p>
+      </div>
+
+      <div class="cert-list">
+
+        <article class="panel cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="8" r="5"/>
+              <path d="m8.5 12-2.4 9 5.9-3 5.9 3-2.4-9"/>
+            </svg>
+          </div>
+
+          <div>
+            <div class="project-kicker">
+              <span class="chip blue">Cisco Networking Academy</span>
+              <span class="chip">Completed · Oct 01, 2026</span>
+            </div>
+
+            <h3>Networking Basics</h3>
+
+            <p>
+              22-hour course covering networking concepts,
+              network types and media, protocol standards,
+              IPv4 addressing, wireless access, and
+              application-layer services.
+            </p>
+
+            <a class="btn btn-outline"
+              href="assets/cisco-networking-basics.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              View Certificate (PDF)
+            </a>
+          </div>
+        </article>
+
+        <article class="panel cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="8" r="5"/>
+              <path d="m8.5 12-2.4 9 5.9-3 5.9 3-2.4-9"/>
+            </svg>
+          </div>
+
+          <div>
+            <div class="project-kicker">
+              <span class="chip blue">Microsoft</span>
+              <span class="chip" id="az900-status">
+                Exam preparation
+              </span>
+            </div>
+
+            <h3 id="az900-title">
+              Microsoft Azure Fundamentals (AZ-900)
+            </h3>
+
+            <p>
+              Cloud concepts, Azure architecture and services,
+              and Azure management and governance.
+            </p>
+
+            <div class="credential-msg" id="az900-unverified">
+              Studied Azure fundamentals.
+              Certification status has not been confirmed.
+            </div>
+
+            <a class="btn btn-outline"
+              id="az900-verify-link"
+              href="#certifications"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden>
+              Verify credential
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <div class="container">
+
+      <div class="resume-panel panel">
+
+        <div>
+          <span class="section-label">06 / Resume</span>
+          <h2>My resume.</h2>
+
+          <p>
+            Review my education, Microsoft Azure academic labs,
+            technical skills, certifications and training,
+            and work experience.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary"
+              href="assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              View Resume (PDF)
+            </a>
+
+            <a class="btn btn-outline"
+              href="assets/resume.pdf"
+              download="Rab_Luis_Baltazar_Resume.pdf">
+              Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="resume-graphic" aria-hidden="true">
+          <svg viewBox="0 0 120 132" fill="none"
+            stroke="currentColor" stroke-width="3">
+            <path d="M24 5h49l23 23v99H24z"/>
+            <path d="M73 5v23h23"/>
+            <path d="M40 51h40M40 64h40M40 77h34M40 90h40M40 103h27"/>
+          </svg>
+
+          <span>Resume · PDF</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-muted">
+    <div class="container">
+
+      <div class="panel contact-area">
+
+        <div>
+          <span class="section-label">07 / Contact</span>
+
+          <h2>Let's connect.</h2>
+
+          <p>
+            I'm interested in internship opportunities
+            where I can learn from experienced teams
+            and contribute to cloud infrastructure,
+            IT operations, or other technology projects.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary"
+              href="https://www.linkedin.com/in/rab-luis-baltazar-932937414/"
+              target="_blank"
+              rel="noopener noreferrer">
+              Connect on LinkedIn
+            </a>
+
+            <a id="resume-button"
+              class="btn btn-outline"
+              href="assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              View resume (PDF)
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-side">
+
+          <!-- LINKEDIN -->
+          <a class="contact-link"
+            href="https://www.linkedin.com/in/rab-luis-baltazar-932937414/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div>
+              <strong>LinkedIn</strong>
+              <span>Rab Luis Baltazar</span>
+            </div>
+          </a>
+
+          <!-- EMAIL -->
+          <a class="contact-link"
+            id="email-contact"
+            href="mailto:rabluis.baltazar04@gmail.com">
+            <div>
+              <strong>Email</strong>
+              <span id="email-label">
+                rabluis.baltazar04@gmail.com
+              </span>
+            </div>
+          </a>
+
+          <!-- MOBILE -->
+          <a class="contact-link"
+            id="phone-contact"
+            href="tel:+639100869877">
+            <div>
+              <strong>Mobile</strong>
+              <span id="phone-label">
+                09100869877
+              </span>
+            </div>
+          </a>
+
+          <!-- GITHUB -->
+          <a class="contact-link"
+            id="github-contact"
+            href="https://github.com/rabluisbaltazar04-stack"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div>
+              <strong>GitHub</strong>
+              <span id="github-label">
+                rabluisbaltazar04-stack
+              </span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>
+      © <span id="year">2026</span>
+      Rab Luis Baltazar.
+    </span>
+
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
